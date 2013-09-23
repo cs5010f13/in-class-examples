@@ -110,5 +110,8 @@
 ;; Tests
 (check-equal? (path->hike (list (make-segment 0.5 100)))
               (make-hike (/ 0.5 SPEED-UPHILL) 0.5 100))
+(check-equal? (path->hike (list (make-segment 1.5 0)))
+              (make-hike (/ 1.5 SPEED-DOWNHILL) 1.5 0))
+
 
 
