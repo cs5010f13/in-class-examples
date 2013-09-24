@@ -74,7 +74,7 @@
              (+ (hike-rise hke)
                 (segment-uphill-rise (segment-rise segmnt)))))
 
-;; add-path : Path Hike -> PartialHike
+;; add-path : Path Hike -> Hike
 ;; GIVEN: a Path and a Hike
 ;; RETURNS: the Hike resulting from first walking the Hike then walking the Path
 ;; Examples:
